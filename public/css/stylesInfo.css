@@ -1,0 +1,64 @@
+
+.Informacion{
+	/*position: relative;*/
+	height: 100vh;
+}
+.informacion-subtitle, .informacion-title{
+	text-transform: uppercase;
+	color: rgb(138, 176, 211);
+	font-size: 2.3em;
+	font-weight: 400;
+}
+
+.informacion-title{
+	font-weight: 700;
+	text-align: center;
+	padding: 1em 0;
+}
+
+/* parrafos de l index*/
+.parrafos-index{
+	color: rgb(187, 185, 206);
+	font-size: 1.2em;
+}
+
+.galeria{
+	position: relative;
+}
+
+.galeria-fotos{
+	width: 40%;
+	/*border: 1px solid red;*/
+	box-shadow: 10px 20px 40px rgba(77, 77, 77, .4);/*sombra*/
+	border-radius: 5px;
+	position: absolute;
+	transition: all .3s;
+}
+
+/*posicionamientos de fotos 1,2 y 3*/
+.foto-1{
+	left: 3em;
+	top: 1em;
+	/*z-index: 1; /*la imagen se va al frente*/
+}
+.foto-2{
+	right: 3em;
+	top: 2em;
+	/*z-index: 2;*/
+}
+.foto-3{
+	left: 20%;
+	top: 4em;
+	/*z-index: 3;*/
+}
+
+.galeria-fotos:hover{/* para que las imagemnes salga de la otra */
+	transform: scale(1.1); /* tamaño */
+	box-shadow: 10px 30px 40px rgba(77, 77, 77, .8);
+	z-index: 1; /*imagen al frente*/
+}
+
+.guia{/* espacio hacia abajo de la pantalla */
+	margin-top: 10%;
+	height: 50vh;
+}

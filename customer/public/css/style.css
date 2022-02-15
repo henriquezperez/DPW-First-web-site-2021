@@ -1,0 +1,97 @@
+.log-pos{
+    margin-left: 38%;
+    margin-right: 35%;
+    margin-top: 8%;
+}
+
+.catalogo-area{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/*textos del banner index*/
+
+.textBanner{
+    text-align: right;
+}
+
+.opcion{
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #fafafa;
+    background-color: #404053;
+    transition: all .3s;
+}
+.opcion:hover{
+    background-color: #fafafa;
+    color: #0e0f0e;
+    transform: translateY(-2px);
+    border: 1px solid #0513ca;
+}
+
+body{
+    /*background-color: #1C2833;*/
+    /*background-color: #bb1212;*/
+    background-color: #12253F;
+    color: white;
+}
+
+.card, .col, .row, .card-img-top{
+    color: #17202A;
+    border-radius: 15px;
+}
+/*
+.card1{
+    border-radius: 300px;
+}*/
+h1, h2, h4{
+    color:white;
+}
+
+.col{
+    transition: all .3s;
+}
+.col:hover{
+	transform: translateY(-10px);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, .7);
+}
+
+.col:active{
+	transform: translateY(-5px);
+	box-shadow: 0 5px 2px rgba(0, 0, 0, .7);
+}
+
+.espace{
+    height: 10vh;
+}
+
+.form-label, .name-user{
+    color: #FDFEFE;
+}
+/*USUARIO*/
+.viewPerfil{
+    text-decoration: none;
+    color: #fafafa;
+}
+.name-user{
+    text-align: left;
+    padding: 5px;
+    /*background-color: #291f8a;*/
+    background-color: #291f8a;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.name-user:hover{
+    background-color: #2715ca;
+}
+.pass{
+    color: #17202A;
+}
+
+.totalCursos{
+    text-align: right;
+}
+.btn-of-new{
+    margin-bottom: 20px;
+}

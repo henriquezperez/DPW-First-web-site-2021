@@ -1,0 +1,142 @@
+.log-pos{
+    margin-left: 38%;
+    margin-right: 35%;
+    margin-top: 8%;
+}
+
+.catalogo-area{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/*textos del banner index*/
+.textBanner, .textBannerParrafo{
+    text-align: right;
+    font-size: 2em;
+}
+.textBannerParrafo{
+    color: #fafafa;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+ /* menu izquierdo*/
+
+.opcion{
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #fafafa;
+    background-color: #404053;
+    transition: all .3s;
+}
+.opcion:hover{
+    background-color: #fafafa;
+    color: #0e0f0e;
+    transform: translateY(-2px);
+    border: 2px solid #1c07df;
+}
+
+body{
+    /*background-color: #1C2833;*/
+    /*background-color: #bb1212;*/
+    background-color: #12253F;
+    color: white;
+}
+
+.card, .col, .row, .card-img-top{
+    color: #17202A;
+    border-radius: 15px;
+}
+h1, h2, h4{
+    color:white;
+}
+
+.col{
+    transition: all .3s;
+}
+.col:hover{
+	transform: translateY(-10px);
+	box-shadow: 20px rgba(0, 0, 0, .7);
+}
+
+.col:active{
+	transform: translateY(-5px);
+	box-shadow: 0 5px 2px rgba(0, 0, 0, .7);
+}
+
+.espace{
+    height: 10vh;
+}
+
+label, .name-user{
+    color: #FDFEFE;
+}
+
+/*USUARIO*/
+
+.viewPerfil{
+    text-decoration: none;
+    color: #fafafa;
+}
+.name-user{
+    text-decoration: none;
+    text-align: left;
+    padding: 5px;
+    background-color: #291f8a;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.pass-ins{
+   
+    padding: 2px;
+   /* background-color: #291f8a;*/
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.name-user:hover{
+    background-color: #2715ca;
+}
+.pass-ins:hover{
+    color: #780fb4;
+}
+.pass{
+    color: #17202A;
+}
+
+/* LOGIN */
+.bg-dark{
+    background-color: #12253F;
+}
+.py-4{
+    background-color: #1c07df;
+}
+.footerlogin{
+    margin-top: 50px;
+}
+.label{
+    color: #0e0f0e;
+}
+
+/* footer*/
+.footer{
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+
+.cuadro{
+    height: 300px;
+    width: 100px;
+    background-color: #1c07df;
+}.text-muted{
+    text-align: center;
+}
+
+.totalCursos{
+    display: inline-block;
+    text-align: right;
+}
+.btn-of-new{
+    margin-bottom: 20px;
+}
