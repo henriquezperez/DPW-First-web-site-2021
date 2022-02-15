@@ -5,6 +5,7 @@
    
     session_start();
     $info;
+
     $pass=@$_POST["clave"];
     $pass1=@$_POST["clave2"];
     $hash = hash("md5",$pass1);
